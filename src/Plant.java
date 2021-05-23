@@ -5,15 +5,20 @@ public abstract class Plant {
 
     private int health = 200;
 
-    private int x;
-    private int y;
+    /**
+     * 변수 이름 구체적으로
+     * x -> xPosition, y-> yPosition
+     * gp -> gamePanel
+     */
+    private int xPosition;
+    private int yPosition;
 
     private GamePanel gp;
 
 
-    public Plant(GamePanel parent, int x, int y) {
-        this.x = x;
-        this.y = y;
+    public Plant(GamePanel parent, int xPosition, int yPosition) {
+        this.xPosition = xPosition;
+        this.yPosition = yPosition;
         gp = parent;
     }
 
@@ -28,20 +33,20 @@ public abstract class Plant {
         this.health = health;
     }
 
-    public int getX() {
-        return x;
+    public int getxPosition() {
+        return xPosition;
     }
 
-    public void setX(int x) {
-        this.x = x;
+    public void setxPosition(int xPosition) {
+        this.xPosition = xPosition;
     }
 
-    public int getY() {
-        return y;
+    public int getyPosition() {
+        return yPosition;
     }
 
-    public void setY(int y) {
-        this.y = y;
+    public void setyPosition(int yPosition) {
+        this.yPosition = yPosition;
     }
 
     public GamePanel getGp() {

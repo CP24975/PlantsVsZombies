@@ -14,7 +14,7 @@ public class Peashooter extends Plant {
         shootTimer = new Timer(2000, (ActionEvent e) -> {
             //System.out.println("SHOOT");
             if (getGp().getLaneZombies().get(y).size() > 0) {
-                getGp().getLanePeas().get(y).add(new Pea(getGp(), y, 103 + this.getX() * 100));
+                getGp().getLanePeas().get(y).add(new Pea(getGp(), y, 103 + this.getxPosition() * 100));
             }
         });
         shootTimer.start();
