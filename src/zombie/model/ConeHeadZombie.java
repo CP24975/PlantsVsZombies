@@ -2,7 +2,6 @@ package zombie.model;
 
 import javax.swing.ImageIcon;
 
-import Game.view.GamePanel;
 
 /**
  * Created by Armin on 6/29/2016.

@@ -17,7 +17,7 @@ public class SunFlowerSunProducer implements SunProducer{
     @Override
     public void createSunView() {
             Sun sta = new Sun(60 + getXPosition() * 100, 110 + getYPosition() * 120, 130 + getYPosition() * 120);
-            SunView sunView = new SunView(sta.getXPosition(), sta.getyPosition());
+            SunView sunView = new SunView(sta.getXPosition(), sta.getYPosition());
             SunPresenter sunPresenter = new SunPresenter(sunView,sta);
             sunView.init(sunPresenter);
             sunPresenter.start();

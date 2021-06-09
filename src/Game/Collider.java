@@ -1,7 +1,6 @@
 package Game;
 
 import plant.model.Plant;
-
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -12,11 +11,9 @@ import java.awt.event.MouseListener;
  * Created by Armin on 6/25/2016.
  */
 public class Collider extends JPanel implements MouseListener {
-
     //rename actionListner variable
-    private ActionListener al;
+    //private ActionListener al;
     private ActionListener actionListener;
-
     public Collider() {
         //setBorder(new LineBorder(Color.RED));
         setOpaque(false);
@@ -26,19 +23,18 @@ public class Collider extends JPanel implements MouseListener {
     }
 
     private Plant assignedPlant;
-
     public Plant getPlant() {
         return assignedPlant;
     }
     /**
-     * 원래 코드
+     * 占쎌뜚占쎌삋 �굜遺얜굡
      * public Plant assignedPlant;
      *
-     * 바뀐 코드
+     * 獄쏅뗀占쏙옙 �굜遺얜굡
      * private Plant assignedPlant;
      *
-     * private 으로 고치고 getter setter 만들어 줘야 한다.
-     * 문제점 : collider.assignedPlant를 쓰는 클래스(GamePanel.java, Zombie.java)에서 getter로 바꿔 줘야 한다.
+     * private 占쎌몵嚥∽옙 �⑥쥙�뒄�⑨옙 getter setter 筌띾슢諭억옙堉� 餓μ꼷鍮� 占쎈립占쎈뼄.
+     * �눧紐꾩젫占쎌젎 : collider.assignedPlant�몴占� 占쎈쾺占쎈뮉 占쎄깻占쎌삋占쎈뮞(GamePanel.java, Zombie.java)占쎈퓠占쎄퐣 getter嚥∽옙 獄쏅떽�벊 餓μ꼷鍮� 占쎈립占쎈뼄.
      */
     //turn public into private and make getter and setter
 

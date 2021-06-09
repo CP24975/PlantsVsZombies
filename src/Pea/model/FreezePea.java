@@ -1,7 +1,6 @@
 package Pea.model;
 
 import javax.swing.*;
-import java.awt.*;
 
 /**
  * Created by Armin on 6/28/2016.

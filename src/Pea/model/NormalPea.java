@@ -1,10 +1,10 @@
 package Pea.model;
 
-import Game.view.GamePanel;
-import zombie.model.Zombie;
+//import Game.view.GamePanel;
+//import zombie.model.Zombie;
 
 import javax.swing.*;
-import java.awt.*;
+//import java.awt.*;
 
 /**
  * Created by Armin on 6/25/2016.

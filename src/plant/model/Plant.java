@@ -1,6 +1,6 @@
 package plant.model;
 
-import Game.view.GamePanel;
+import java.awt.Image;
 import Lane.model.Lane;
 import plant.strategy.PlantShootingStrategy;
 
@@ -18,24 +18,26 @@ public abstract class Plant {
     private int y;
 
     private Lane lane;
-
     private PlantShootingStrategy plantShootingStrategy;
+    protected Image plantImage;
 
 
     public Plant(int x, int y) {
         this.x = x;
         this.y = y;
         lane = lane.getInstance();
+        setImage();
     }
-
+    protected abstract void setImage();   
     public abstract int getPrice();
-
     public abstract void draw(Graphics g);
-
     public void shoot() {
         plantShootingStrategy.shoot(x, y, lane);
     }
 
+    public Image getImage() {
+      return plantImage;
+    }
 
 
     public void setPlantShootingStrategy(PlantShootingStrategy plantShootingStrategy) {

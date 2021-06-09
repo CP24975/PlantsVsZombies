@@ -3,13 +3,13 @@ package Game.view;
 import Game.Collider;
 import Game.LevelData;
 import Pea.model.FreezePea;
-import Pea.model.NormalPea;
+//import Pea.model.NormalPea;
 import Pea.model.Pea;
 import plant.creator.PlantFactory;
-import plant.model.FreezePeashooter;
-import plant.model.Peashooter;
+//import plant.model.FreezePeashooter;
+//import plant.model.Peashooter;
 import plant.model.Plant;
-import plant.model.Sunflower;
+//import plant.model.Sunflower;
 import sun.producer.RandomSunProducer;
 import sun.producer.SunProducer;
 import zombie.model.Zombie;
@@ -24,14 +24,14 @@ import java.util.Random;
 
 
 public class GamePanel extends JLayeredPane {
-
+    private final int NUM_LINES=5; 
     public static final int SUN_PRODUCE_DELAY = 5000;
     public static final int ZOMBIE_PRODUCE_DELAY = 7000;
     public static final int ADVANCE_DELAY = 60;
     public static final int REDRAW_DELAY = 25;
     private static GamePanel gamePanel = null;
 
-    private Image bgImage;
+    private Image backgroundImage;
 
     private Collider[] colliders;
 
@@ -104,10 +104,10 @@ public class GamePanel extends JLayeredPane {
 
 
     private void addZombie(int lane, Zombie zombie) {
-		if(zombie!=null) {
-			laneZombies.get(lane).add(zombie);
-		}
-	}
+        if(zombie!=null) {
+            laneZombies.get(lane).add(zombie);
+        }
+    }
 
     private void initializeCollider() {
         colliders = new Collider[45];
@@ -122,20 +122,16 @@ public class GamePanel extends JLayeredPane {
 
     private void initializeLanePeas() {
         lanePeas = new ArrayList<>();
-        lanePeas.add(new ArrayList<>()); //line 1
-        lanePeas.add(new ArrayList<>()); //line 2
-        lanePeas.add(new ArrayList<>()); //line 3
-        lanePeas.add(new ArrayList<>()); //line 4
-        lanePeas.add(new ArrayList<>()); //line 5
+        for(int i = 0; i < NUM_LINES ; i++ ) {
+          lanePeas.add(new ArrayList<>()); 
+        }
     }
 
     private void initializeLaneZombies() {
         laneZombies = new ArrayList<>();
-        laneZombies.add(new ArrayList<>()); //line 1
-        laneZombies.add(new ArrayList<>()); //line 2
-        laneZombies.add(new ArrayList<>()); //line 3
-        laneZombies.add(new ArrayList<>()); //line 4
-        laneZombies.add(new ArrayList<>()); //line 5
+        for(int i = 0; i < NUM_LINES ; i++ ) {
+          laneZombies.add(new ArrayList<>());  
+        }
     }
 
     private void initializeLayout() {
@@ -150,10 +146,10 @@ public class GamePanel extends JLayeredPane {
     }
 
     private void loadImages() {
-        bgImage = new ImageIcon(this.getClass().getResource("../../images/mainBG.png")).getImage();
+        backgroundImage = new ImageIcon(this.getClass().getResource("../../images/mainBG.png")).getImage();
     }
 
-    private void advance() {
+    public void advance() {
         for (int laneIndex = 0; laneIndex < 5; laneIndex++) {
             zombieAdvance(laneIndex);
             peaAdvance(laneIndex);
@@ -161,26 +157,26 @@ public class GamePanel extends JLayeredPane {
         }
     }
 
-	private void colliderAdvance() {
-		for (Collider c: colliders) {
-			if(c.getPlant()!=null && c.getPlant().getHealth() <= 0) {
-				c.removePlant();
-			}
-		}
-	}
+    private void colliderAdvance() {
+        for (Collider c: colliders) {
+            if(c.getPlant()!=null && c.getPlant().getHealth() <= 0) {
+                c.removePlant();
+            }
+        }
+    }
 
-	private void zombieAdvance(int laneIndex) {
-		for (Zombie z : laneZombies.get(laneIndex)) {
-		    z.advance();
-		    if (z.getXPosition() < 0) {
-		    	gameOver();
-		    }
-		    if (!z.getAlive()) {
-		    	killZombie(laneIndex, z);
-		    	break;
-		    }
-		}
-	}
+    private void zombieAdvance(int laneIndex) {
+        for (Zombie z : laneZombies.get(laneIndex)) {
+            z.advance();
+            if (z.getXPosition() < 0) {
+                gameOver();
+            }
+            if (!z.getAlive()) {
+                killZombie(laneIndex, z);
+                break;
+            }
+        }
+    }
 
     private void peaAdvance(int laneIndex) {
         for (int j = 0; j < lanePeas.get(laneIndex).size(); j++) {
@@ -203,24 +199,23 @@ public class GamePanel extends JLayeredPane {
         }
     }
 
-	private void killZombie(int i, Zombie z) {
-		System.out.println("ZOMBIE DIED");
-		laneZombies.get(i).remove(z);
-		setProgress(10);
-	}
+    private void killZombie(int i, Zombie z) {
+        System.out.println("ZOMBIE DIED");
+        laneZombies.get(i).remove(z);
+        setProgress(10);
+    }
 
-	private void gameOver() {
-		JOptionPane.showMessageDialog(this, "ZOMBIES ATE YOUR BRAIN !" + '\n' + "Starting the level again");
-		gamePanel = null;
-		GameWindow.gw.dispose();
-		GameWindow.gw = new GameWindow();
-	}
+    private void gameOver() {
+        JOptionPane.showMessageDialog(this, "ZOMBIES ATE YOUR BRAIN !" + '\n' + "Starting the level again");
+        gamePanel = null;
+        GameWindow.gameWindow.dispose();
+        GameWindow.gameWindow = new GameWindow();
+    }
 
     @Override
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
-        g.drawImage(bgImage, 0, 0, null);
-
+        g.drawImage(backgroundImage, 0, 0, null);
         //Draw Plants
         for (int i = 0; i < 45; i++) {
             Collider collider = colliders[i];
@@ -232,7 +227,7 @@ public class GamePanel extends JLayeredPane {
 
         for (int i = 0; i < 5; i++) {
             for (Zombie zombie : laneZombies.get(i)) {
-            	zombie.draw(g);
+                zombie.draw(g);
             }
 
             for (int j = 0; j < lanePeas.get(i).size(); j++) {
@@ -271,9 +266,9 @@ public class GamePanel extends JLayeredPane {
             if ("1".equals(LevelData.LEVEL_NUMBER)) {
                 JOptionPane.showMessageDialog(null, "LEVEL_CONTENT Completed !!!" + '\n' + "Starting next LEVEL_CONTENT");
                 gamePanel = null;
-                GameWindow.gw.dispose();
+                GameWindow.gameWindow.dispose();
                 LevelData.write("2");
-                GameWindow.gw.gameStart();
+                GameWindow.gameWindow.gameStart();
             } else {
                 JOptionPane.showMessageDialog(null, "LEVEL_CONTENT Completed !!!" + '\n' + "More Levels will come soon !!!" + '\n' + "Resetting data");
                 LevelData.write("1");

@@ -1,7 +1,6 @@
 package zombie.producer;
 
 import Game.LevelData;
-import Game.view.GamePanel;
 import zombie.model.Zombie;
 
 import java.util.Random;

@@ -12,7 +12,7 @@ public class RandomSunProducer implements SunProducer{
     public void createSunView() {
         Random rnd = new Random();
         Sun sta = new Sun(rnd.nextInt(800) + 100, 0, rnd.nextInt(300) + 200);
-        SunView sunView = new SunView(sta.getXPosition(), sta.getyPosition());
+        SunView sunView = new SunView(sta.getXPosition(), sta.getYPosition());
         SunPresenter sunPresenter = new SunPresenter(sunView,sta);
         sunView.init(sunPresenter);
         sunPresenter.start();

@@ -1,6 +1,7 @@
 package zombie.model;
 
 import Game.Collider;
+
 import Game.view.GamePanel;
 
 import java.awt.*;

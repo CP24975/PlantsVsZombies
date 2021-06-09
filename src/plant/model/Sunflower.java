@@ -1,10 +1,10 @@
 package plant.model;
 
-import plant.strategy.ProduceSunBySunFlower;
 import sun.producer.SunFlowerSunProducer;
 import sun.producer.SunProducer;
 
 import javax.swing.*;
+import java.awt.Image;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 
@@ -17,7 +17,6 @@ public class Sunflower extends Plant {
     private SunProducer sunProducer;
     private Timer sunProducerTimer;
     private Image sunflowerImage;
-
     public Sunflower(int x, int y) {
         super(x, y);
         sunProducer = new SunFlowerSunProducer(x,y);
@@ -35,4 +34,11 @@ public class Sunflower extends Plant {
     public void draw(Graphics g) {
         g.drawImage(sunflowerImage,60+getX()*100, 129 + getY()*120,null);
     }
+
+    @Override
+    protected void setImage() {
+      // TODO Auto-generated method stub
+      plantImage = new ImageIcon(this.getClass().getResource("../../images/plants/sunflower.gif")).getImage();
+    }
+    
 }

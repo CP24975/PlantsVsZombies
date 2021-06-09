@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.14" icons="true" automaticImage="JPEG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true" 
+  router="FAN">  
+  <package id="1" language="java" name="Game" project="PlantsVsZombies" file="/PlantsVsZombies/src/Game" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="1326" width="2097" x="1299" y="10"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="2" language="java" name="Game.view" project="PlantsVsZombies" file="/PlantsVsZombies/src/Game/view" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="1226" width="1487" x="1332" y="90"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="3" language="java" name="Game.view.GamePanel" project="PlantsVsZombies" 
+    file="/PlantsVsZombies/src/Game/view/GamePanel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2494" y="649"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="Game.view.GamePanel.PlantActionListener" project="PlantsVsZombies" 
+    file="/PlantsVsZombies/src/Game/view/GamePanel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1972" y="518"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="Game.view.Menu" project="PlantsVsZombies" 
+    file="/PlantsVsZombies/src/Game/view/Menu.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1937" y="260"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="Game.view.MenuFrame" project="PlantsVsZombies" 
+    file="/PlantsVsZombies/src/Game/view/MenuFrame.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1957" y="755"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="Game.Collider" project="PlantsVsZombies" 
+    file="/PlantsVsZombies/src/Game/Collider.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3066" y="297"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="Game.LevelData" project="PlantsVsZombies" 
+    file="/PlantsVsZombies/src/Game/LevelData.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3050" y="587"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="9" language="java" name="Lane" project="PlantsVsZombies" file="/PlantsVsZombies/src/Lane" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="526" width="770" x="4313" y="1173"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="10" language="java" name="Lane.model" project="PlantsVsZombies" file="/PlantsVsZombies/src/Lane/model" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="424" width="506" x="4329" y="1257"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="11" language="java" name="Pea" project="PlantsVsZombies" file="/PlantsVsZombies/src/Pea" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="729" width="991" x="890" y="1335"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="12" language="java" name="Pea.model" project="PlantsVsZombies" file="/PlantsVsZombies/src/Pea/model" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="621" width="760" x="907" y="1395"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="13" language="java" name="Pea.model.Pea" project="PlantsVsZombies" 
+    file="/PlantsVsZombies/src/Pea/model/Pea.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1279" y="1631"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="14" language="java" name="Pea.model.PeaStrategy" project="PlantsVsZombies" 
+    file="/PlantsVsZombies/src/Pea/model/PeaStrategy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1081" y="1879"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="15" language="java" name="Pea.model.FreezePea" project="PlantsVsZombies" 
+    file="/PlantsVsZombies/src/Pea/model/FreezePea.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1267" y="1909"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="Pea.model.NormalPea" project="PlantsVsZombies" 
+    file="/PlantsVsZombies/src/Pea/model/NormalPea.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1457" y="1909"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="17" language="java" name="plant" project="PlantsVsZombies" file="/PlantsVsZombies/src/plant" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="1097" width="1723" x="3426" y="27"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="18" language="java" name="plant.creator" project="PlantsVsZombies" 
+    file="/PlantsVsZombies/src/plant/creator" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="274" width="409" x="3696" y="144"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="19" language="java" name="plant.creator.PlantFactory" project="PlantsVsZombies" 
+    file="/PlantsVsZombies/src/plant/creator/PlantFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3851" y="298"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="20" language="java" name="plant.model" project="PlantsVsZombies" file="/PlantsVsZombies/src/plant/model" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="890" width="943" x="4172" y="140"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="21" language="java" name="plant.model.Sunflower" project="PlantsVsZombies" 
+    file="/PlantsVsZombies/src/plant/model/Sunflower.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4933" y="605"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="plant.model.Plant" project="PlantsVsZombies" 
+    file="/PlantsVsZombies/src/plant/model/Plant.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4449" y="489"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="plant.model.FreezePeashooter" project="PlantsVsZombies" 
+    file="/PlantsVsZombies/src/plant/model/FreezePeashooter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4940" y="327"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="plant.model.Peashooter" project="PlantsVsZombies" 
+    file="/PlantsVsZombies/src/plant/model/Peashooter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4933" y="880"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="25" language="java" name="plant.strategy" project="PlantsVsZombies" 
+    file="/PlantsVsZombies/src/plant/strategy" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="642" width="653" x="3454" y="433"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <interface id="26" language="java" name="plant.strategy.PlantProduceSunStrategy" project="PlantsVsZombies" 
+    file="/PlantsVsZombies/src/plant/strategy/PlantProduceSunStrategy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3613" y="911"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="27" language="java" name="plant.strategy.ShootFreezePea" project="PlantsVsZombies" 
+    file="/PlantsVsZombies/src/plant/strategy/ShootFreezePea.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3613" y="742"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="plant.strategy.ProduceSunBySunFlower" project="PlantsVsZombies" 
+    file="/PlantsVsZombies/src/plant/strategy/ProduceSunBySunFlower.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3907" y="950"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="plant.strategy.ShootNormalPea" project="PlantsVsZombies" 
+    file="/PlantsVsZombies/src/plant/strategy/ShootNormalPea.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3910" y="745"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="30" language="java" name="plant.strategy.PlantShootingStrategy" project="PlantsVsZombies" 
+    file="/PlantsVsZombies/src/plant/strategy/PlantShootingStrategy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3728" y="565"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <package id="31" language="java" name="plantCard.model" project="PlantsVsZombies" 
+    file="/PlantsVsZombies/src/plantCard/model" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="569" width="480" x="137" y="1325"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="32" language="java" name="plantCard" project="PlantsVsZombies" file="/PlantsVsZombies/src/plantCard" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="417" width="338" x="194" y="1391"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="33" language="java" name="plantCard.model.PlantCard" project="PlantsVsZombies" 
+    file="/PlantsVsZombies/src/plantCard/model/PlantCard.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="343" y="1612"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="34" language="java" name="sun" project="PlantsVsZombies" file="/PlantsVsZombies/src/sun" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="705" width="1616" x="2488" y="1383"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="35" language="java" name="sun.producer" project="PlantsVsZombies" 
+    file="/PlantsVsZombies/src/sun/producer" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="523" width="558" x="3508" y="1459"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="36" language="java" name="sun.presenter" project="PlantsVsZombies" 
+    file="/PlantsVsZombies/src/sun/presenter" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="385" width="269" x="2558" y="1464"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="37" language="java" name="sun.view" project="PlantsVsZombies" file="/PlantsVsZombies/src/sun/view" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="364" width="294" x="2890" y="1465"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="38" language="java" name="sun.model" project="PlantsVsZombies" file="/PlantsVsZombies/src/sun/model" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="425" width="247" x="3231" y="1464"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="39" language="java" name="sun.producer.RandomSunProducer" project="PlantsVsZombies" 
+    file="/PlantsVsZombies/src/sun/producer/RandomSunProducer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3636" y="1780"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="40" language="java" name="sun.producer.SunFlowerSunProducer" project="PlantsVsZombies" 
+    file="/PlantsVsZombies/src/sun/producer/SunFlowerSunProducer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3903" y="1793"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="41" language="java" name="sun.view.SunView" project="PlantsVsZombies" 
+    file="/PlantsVsZombies/src/sun/view/SunView.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3035" y="1647"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="42" language="java" name="sun.model.Sun" project="PlantsVsZombies" 
+    file="/PlantsVsZombies/src/sun/model/Sun.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3357" y="1699"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="43" language="java" name="sun.presenter.SunPresenter" project="PlantsVsZombies" 
+    file="/PlantsVsZombies/src/sun/presenter/SunPresenter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2691" y="1664"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="44" language="java" name="zombie" project="PlantsVsZombies" file="/PlantsVsZombies/src/zombie" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="1241" width="1111" x="132" y="13"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="45" language="java" name="zombie.model" project="PlantsVsZombies" 
+    file="/PlantsVsZombies/src/zombie/model" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="1148" width="414" x="193" y="61"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="46" language="java" name="zombie.model.ConeHeadZombie" project="PlantsVsZombies" 
+    file="/PlantsVsZombies/src/zombie/model/ConeHeadZombie.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="303" y="1153"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="47" language="java" name="zombie.model.MeleeZombie" project="PlantsVsZombies" 
+    file="/PlantsVsZombies/src/zombie/model/MeleeZombie.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="390" y="1002"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="48" language="java" name="zombie.model.Zombie" project="PlantsVsZombies" 
+    file="/PlantsVsZombies/src/zombie/model/Zombie.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="405" y="509"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="49" language="java" name="zombie.model.NormalZombie" project="PlantsVsZombies" 
+    file="/PlantsVsZombies/src/zombie/model/NormalZombie.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="504" y="1155"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="50" language="java" name="zombie.producer" project="PlantsVsZombies" 
+    file="/PlantsVsZombies/src/zombie/producer" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="529" x="681" y="72"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="51" language="java" name="zombie.producer.ZombieProducer" project="PlantsVsZombies" 
+    file="/PlantsVsZombies/src/zombie/producer/ZombieProducer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="830" y="219"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="52" language="java" name="Game.view.GameWindow" project="PlantsVsZombies" 
+    file="/PlantsVsZombies/src/Game/view/GameWindow.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1960" y="979"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="53" language="java" name="Game.view.GameWindow.PlantType" project="PlantsVsZombies" 
+    file="/PlantsVsZombies/src/Game/view/GameWindow.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1517" y="646"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="54" language="java" name="Lane.model.Lane" project="PlantsVsZombies" 
+    file="/PlantsVsZombies/src/Lane/model/Lane.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4559" y="1485"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="55" language="java" name="sun.producer.SunProducer" project="PlantsVsZombies" 
+    file="/PlantsVsZombies/src/sun/producer/SunProducer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3792" y="1597"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <realization id="56">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="14"/>  
+  </realization>  
+  <association id="57">    
+    <end type="SOURCE" refId="43" navigable="false">      
+      <attribute id="58" name="sun">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="59" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="42" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="60">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="61" name="lanes"/>      
+      <multiplicity id="62" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="54" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="63">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="22"/>  
+  </generalization>  
+  <realization id="64">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="55"/>  
+  </realization>  
+  <generalization id="65">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="22"/>  
+  </generalization>  
+  <realization id="66">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="30"/>  
+  </realization>  
+  <nesting id="67">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
+  </nesting>  
+  <generalization id="68">    
+    <end type="SOURCE" refId="47"/>    
+    <end type="TARGET" refId="48"/>  
+  </generalization>  
+  <nesting id="69">    
+    <end type="SOURCE" refId="52"/>    
+    <end type="TARGET" refId="53"/>  
+  </nesting>  
+  <association id="70">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="71" name="zombieProducer">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="72" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="51" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="73">    
+    <end type="SOURCE" refId="52" navigable="false">      
+      <attribute id="74" name="activePlantingBrush"/>      
+      <multiplicity id="75" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="53" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="76">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="13"/>  
+  </generalization>  
+  <generalization id="77">    
+    <end type="SOURCE" refId="46"/>    
+    <end type="TARGET" refId="47"/>  
+  </generalization>  
+  <association id="78">    
+    <end type="SOURCE" refId="52" navigable="false">      
+      <attribute id="79" name="gamePanel"/>      
+      <multiplicity id="80" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="81">    
+    <end type="SOURCE" refId="52" navigable="false">      
+      <attribute id="82" name="menuFrame"/>      
+      <multiplicity id="83" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="84">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="85" name="assignedPlant">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="86" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="87">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="88" name="plantShootingStrategy">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="89" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="30" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="90">    
+    <end type="SOURCE" refId="43" navigable="false">      
+      <attribute id="91" name="sunView">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="92" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="41" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="93">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="94" name="lanes"/>      
+      <multiplicity id="95" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="54" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="96">    
+    <end type="SOURCE" refId="39"/>    
+    <end type="TARGET" refId="55"/>  
+  </realization>  
+  <generalization id="97">    
+    <end type="SOURCE" refId="49"/>    
+    <end type="TARGET" refId="47"/>  
+  </generalization>  
+  <generalization id="98">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="13"/>  
+  </generalization>  
+  <association id="99">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="100" name="sunProducer"/>      
+      <multiplicity id="101" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="55" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="102">    
+    <end type="SOURCE" refId="52" navigable="false">      
+      <attribute id="103" name="gameWindow"/>      
+      <multiplicity id="104" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="52" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="105">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="30"/>  
+  </realization>  
+  <association id="106">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="107" name="lane"/>      
+      <multiplicity id="108" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="54" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="109">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="110" name="sunProducer"/>      
+      <multiplicity id="111" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="55" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="112">    
+    <end type="SOURCE" refId="54" navigable="false">      
+      <attribute id="113" name="lane"/>      
+      <multiplicity id="114" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="54" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="115">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="116" name="plantFactory">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="117" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="118">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="119" name="colliders">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="120" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="121">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="122" name="activePlantingBrush"/>      
+      <multiplicity id="123" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="53" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="124">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="125" name="sunProducer"/>      
+      <multiplicity id="126" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="55" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="127">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="128" name="gamePanel">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="129" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="130">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="22"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
