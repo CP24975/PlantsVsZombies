@@ -42,7 +42,7 @@ public class SunTest {
   }
   /**
    * Purpose: test sun.Move() function
-   * Input: execute sun.Move():
+   * Input: execute sun.reduceDestructTime():
    *        X = 100 , Y = 200 , endY = 0;
    * Expected:
    *      return SUCCESS
@@ -57,7 +57,7 @@ public class SunTest {
     testItem = new Sun(startX, startY, endY);
     int beforeDestructTime = testItem.getDestructTime();
     
-    testItem.move();
+    testItem.reduceDestructTime();
     int AfterDestructTime = testItem.getDestructTime();
     assertEquals(beforeDestructTime, AfterDestructTime + 1);
   }

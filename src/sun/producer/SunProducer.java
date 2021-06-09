@@ -1,6 +1,7 @@
 package sun.producer;
 
+import sun.view.SunView;
 
 public interface SunProducer {
-    public void createSunView();
+    public SunView createSunView();
 }

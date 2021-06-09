@@ -13,6 +13,7 @@ import plant.model.Plant;
 //import plant.model.Sunflower;
 import sun.producer.RandomSunProducer;
 import sun.producer.SunProducer;
+import sun.view.SunView;
 import zombie.model.Zombie;
 import zombie.producer.ZombieProducer;
 
@@ -71,7 +72,10 @@ public class GamePanel extends JLayeredPane {
 
     private void setSunProducerTimer() {
         sunProducer = new RandomSunProducer();
-        sunProducerTimer = new Timer(SUN_PRODUCE_DELAY,(ActionEvent e)->{sunProducer.createSunView();});
+        sunProducerTimer = new Timer(SUN_PRODUCE_DELAY,(ActionEvent e)->{
+            SunView sunView = sunProducer.createSunView();
+            add(sunView,1);
+        });
         sunProducerTimer.start();
     }
 
@@ -200,8 +204,7 @@ public class GamePanel extends JLayeredPane {
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
         g.drawImage(backgroundImage, 0, 0, null);
-        //Draw Plants
-        for (int i = 0; i < 45; i++) {
+       for (int i = 0; i < 45; i++) {
             Collider collider = colliders[i];
             Plant plant = collider.getPlant();
             if (plant != null) {

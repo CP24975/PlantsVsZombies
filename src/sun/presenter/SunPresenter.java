@@ -34,7 +34,7 @@ public class SunPresenter {
 
 
     public void move() {
-        sun.move();
+        sun.action();
         setSunViewLocation();
         if(sun.getDestructTime() <= 0){
             sunView.remove();
