@@ -25,65 +25,20 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dc5d397-09b3-4108-83f3-9a4e2501e054" name="Default" comment="Git Ignore Update">
-      <change afterPath="$PROJECT_DIR$/src/plant/strategy/PlantProduceSunStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/plant/strategy/PlantShootingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/plant/strategy/ProduceSunBySunFlower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/plant/strategy/ShootFreezePea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/plant/strategy/ShootNormalPea.java" afterDir="false" />
+    <list default="true" id="7dc5d397-09b3-4108-83f3-9a4e2501e054" name="Default" comment="make Test Cases for sunflower">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/bin/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/Game/Collider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/Game/LevelData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/Game/view/GamePanel$PlantActionListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/Game/view/GamePanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/Game/view/GameWindow$PlantType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/Game/view/GameWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/Game/view/Menu$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/Game/view/Menu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/Game/view/MenuFrame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/Lane/model/Lane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/Pea/model/FreezePea.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/Pea/model/NormalPea.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/Pea/model/Pea.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/Pea/model/PeaStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/images/cards/card_cherrybomb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/images/cards/card_freezepeashooter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/images/cards/card_peashooter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/images/cards/card_sunflower.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/images/cards/card_wallnut.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/images/freezepea.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/images/mainBG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/images/menu.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/images/pea.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/images/plants/freezepeashooter.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/images/plants/peashooter.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/images/plants/sunflower.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/images/sun.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/images/zombies/zombie1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/images/zombies/zombie2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/plant/creator/PlantFactory$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/plant/creator/PlantFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/plant/model/FreezePeashooter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/plant/model/Peashooter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/plant/model/Plant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/plant/model/Sunflower.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/plantCard/model/PlantCard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/sun/model/Sun.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/sun/presenter/SunPresenter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/sun/producer/RandomSunProducer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/sun/producer/SunFlowerSunProducer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/sun/producer/SunProducer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/sun/view/SunView$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/sun/view/SunView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/zombie/model/ConeHeadZombie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/zombie/model/NormalZombie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/zombie/model/Zombie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/zombie/producer/ZombieProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/Game/view/GamePanel$PlantActionListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jPvZ/Game/view/GamePanel$PlantActionListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/Game/view/GamePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jPvZ/Game/view/GamePanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/plant/model/Peashooter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jPvZ/plant/model/Peashooter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/plant/model/Plant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jPvZ/plant/model/Plant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jPvZ/plant/strategy/ShootNormalPea.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jPvZ/plant/strategy/ShootNormalPea.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game/view/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game/view/GamePanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/plant/model/FreezePeashooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/plant/model/FreezePeashooter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/plant/model/Peashooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/plant/model/Peashooter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/plant/model/Plant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/plant/model/Plant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/plant/model/Sunflower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/plant/model/Sunflower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plant/strategy/ShootNormalPea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/plant/strategy/ShootNormalPea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Test2/PlantTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Test2/PlantTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Test3/PeaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Test3/PeaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +66,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -122,7 +81,8 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -139,7 +99,7 @@
       <recent name="C:\Users\Armin\IdeaProjects\jPvZ\resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.GameWindow">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -179,17 +139,6 @@
     </configuration>
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -248,17 +197,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="passParentEnv" value="true" />
-      <setting name="grailsApplicationRoot" value="" />
-      <setting name="launchBrowser" value="true" />
-      <setting name="launchBrowserUrl" value="" />
-      <setting name="depsClasspath" value="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -308,36 +246,112 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory />
-      <pass-parent-env>true</pass-parent-env>
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
-      <method v="2" />
-    </configuration>
     <configuration name="GameWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Game.view.GameWindow" />
       <module name="jPvZ" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Game.view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="grailsApplicationRoot" value="" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PeaTest.testPeaAttackZombie300" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jPvZ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test3" />
+      <option name="MAIN_CLASS_NAME" value="Test3.PeaTest" />
+      <option name="METHOD_NAME" value="testPeaAttackZombie300" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlantTest.checkIfStrategyPatternApplyOnFreezePeashooterClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jPvZ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test2" />
+      <option name="MAIN_CLASS_NAME" value="Test2.PlantTest" />
+      <option name="METHOD_NAME" value="checkIfStrategyPatternApplyOnFreezePeashooterClass" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlantTest.checkIfStrategyPatternApplyOnPeashooterClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jPvZ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test2" />
+      <option name="MAIN_CLASS_NAME" value="Test2.PlantTest" />
+      <option name="METHOD_NAME" value="checkIfStrategyPatternApplyOnPeashooterClass" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlantTest.shootNormalPeaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jPvZ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test2" />
+      <option name="MAIN_CLASS_NAME" value="Test2.PlantTest" />
+      <option name="METHOD_NAME" value="shootNormalPeaTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -401,9 +415,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.GameWindow" />
+        <item itemvalue="JUnit.PlantTest.shootNormalPeaTest" />
+        <item itemvalue="JUnit.PeaTest.testPeaAttackZombie300" />
+        <item itemvalue="JUnit.PlantTest.checkIfStrategyPatternApplyOnFreezePeashooterClass" />
+        <item itemvalue="JUnit.PlantTest.checkIfStrategyPatternApplyOnPeashooterClass" />
       </list>
     </recent_temporary>
   </component>
@@ -436,6 +475,7 @@
       <workItem from="1621934719641" duration="804000" />
       <workItem from="1622108743782" duration="279000" />
       <workItem from="1622122331617" duration="1213000" />
+      <workItem from="1623232619487" duration="19351000" />
     </task>
     <task id="LOCAL-00001" summary="Reformatted code">
       <created>1545395229844</created>
@@ -444,7 +484,28 @@
       <option name="project" value="LOCAL" />
       <updated>1545395229844</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="make Plant Test Class">
+      <created>1623051929534</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1623051929534</updated>
+    </task>
+    <task id="LOCAL-00003" summary="make test package">
+      <created>1623233671946</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1623233671946</updated>
+    </task>
+    <task id="LOCAL-00004" summary="make Test Cases for sunflower">
+      <created>1623238823884</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1623238823884</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -484,6 +545,80 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Reformatted code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reformatted code" />
+    <MESSAGE value="make Plant Test Class" />
+    <MESSAGE value="make test package" />
+    <MESSAGE value="make test package out of src dir" />
+    <MESSAGE value="make Test Cases for sunflower" />
+    <option name="LAST_COMMIT_MESSAGE" value="make Test Cases for sunflower" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="290" y="143" key="#Project_Structure" timestamp="1623234231652">
+      <screen x="78" y="0" width="1842" height="1080" />
+    </state>
+    <state x="290" y="143" key="#Project_Structure/-1858.0.1474.864/78.0.1842.1080@78.0.1842.1080" timestamp="1623234231652" />
+    <state x="170" y="92" width="737" height="896" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1623242896236">
+      <screen x="78" y="0" width="1842" height="1080" />
+    </state>
+    <state x="170" y="92" width="737" height="896" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/-1858.0.1474.864/78.0.1842.1080@78.0.1842.1080" timestamp="1623242896236" />
+    <state x="343" y="245" key="#com.intellij.ide.util.MemberChooser" timestamp="1623237829384">
+      <screen x="78" y="0" width="1842" height="1080" />
+    </state>
+    <state x="343" y="245" key="#com.intellij.ide.util.MemberChooser/-1858.0.1474.864/78.0.1842.1080@78.0.1842.1080" timestamp="1623237829384" />
+    <state x="170" y="92" width="737" height="896" maximized="true" key="DiffContextDialog" timestamp="1623234546706">
+      <screen x="78" y="0" width="1842" height="1080" />
+    </state>
+    <state x="170" y="92" width="737" height="896" maximized="true" key="DiffContextDialog/-1858.0.1474.864/78.0.1842.1080@78.0.1842.1080" timestamp="1623234546706" />
+    <state width="877" height="181" key="GridCell.Tab.0.bottom" timestamp="1623252201854">
+      <screen x="78" y="0" width="1842" height="1080" />
+    </state>
+    <state width="877" height="181" key="GridCell.Tab.0.bottom/-1858.0.1474.864/78.0.1842.1080@78.0.1842.1080" timestamp="1623252201854" />
+    <state width="877" height="181" key="GridCell.Tab.0.center" timestamp="1623252201853">
+      <screen x="78" y="0" width="1842" height="1080" />
+    </state>
+    <state width="877" height="181" key="GridCell.Tab.0.center/-1858.0.1474.864/78.0.1842.1080@78.0.1842.1080" timestamp="1623252201853" />
+    <state width="877" height="181" key="GridCell.Tab.0.left" timestamp="1623252201853">
+      <screen x="78" y="0" width="1842" height="1080" />
+    </state>
+    <state width="877" height="181" key="GridCell.Tab.0.left/-1858.0.1474.864/78.0.1842.1080@78.0.1842.1080" timestamp="1623252201853" />
+    <state width="877" height="181" key="GridCell.Tab.0.right" timestamp="1623252201854">
+      <screen x="78" y="0" width="1842" height="1080" />
+    </state>
+    <state width="877" height="181" key="GridCell.Tab.0.right/-1858.0.1474.864/78.0.1842.1080@78.0.1842.1080" timestamp="1623252201854" />
+    <state x="218" y="69" key="MergeDialog" timestamp="1623052051710">
+      <screen x="78" y="0" width="1458" height="864" />
+    </state>
+    <state x="218" y="69" key="MergeDialog/78.0.1458.864@78.0.1458.864" timestamp="1623052051710" />
+    <state x="542" y="241" key="MultipleFileMergeDialog" timestamp="1623233790257">
+      <screen x="78" y="0" width="1842" height="1080" />
+    </state>
+    <state x="542" y="241" key="MultipleFileMergeDialog/-1858.0.1474.864/78.0.1842.1080@78.0.1842.1080" timestamp="1623233790257" />
+    <state x="445" y="193" key="MultipleFileMergeDialog/78.0.1458.864@78.0.1458.864" timestamp="1623052062423" />
+    <state x="377" y="152" key="RollbackChangesDialog" timestamp="1623051750140">
+      <screen x="78" y="0" width="1458" height="864" />
+    </state>
+    <state x="377" y="152" key="RollbackChangesDialog/78.0.1458.864@78.0.1458.864" timestamp="1623051750140" />
+    <state x="485" y="206" key="Vcs.Push.Dialog.v2" timestamp="1623238830771">
+      <screen x="78" y="0" width="1842" height="1080" />
+    </state>
+    <state x="485" y="206" key="Vcs.Push.Dialog.v2/-1858.0.1474.864/78.0.1842.1080@78.0.1842.1080" timestamp="1623238830771" />
+    <state x="400" y="165" key="Vcs.Push.Dialog.v2/78.0.1458.864@78.0.1458.864" timestamp="1623052083733" />
+    <state x="527" y="324" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1623051760374">
+      <screen x="78" y="0" width="1458" height="864" />
+    </state>
+    <state x="527" y="324" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/78.0.1458.864@78.0.1458.864" timestamp="1623051760374" />
+    <state x="763" y="431" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1623233767628">
+      <screen x="78" y="0" width="1842" height="1080" />
+    </state>
+    <state x="763" y="431" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1858.0.1474.864/78.0.1842.1080@78.0.1842.1080" timestamp="1623233767628" />
+    <state x="620" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/78.0.1458.864@78.0.1458.864" timestamp="1623052029525" />
+    <state x="992" y="0" width="935" height="1087" key="dock-window-1" timestamp="1623234193766">
+      <screen x="78" y="0" width="1842" height="1080" />
+    </state>
+    <state x="992" y="0" width="935" height="1087" key="dock-window-1/-1858.0.1474.864/78.0.1842.1080@78.0.1842.1080" timestamp="1623234193766" />
+    <state x="801" y="0" width="742" height="870" key="dock-window-1/78.0.1458.864@78.0.1458.864" timestamp="1623052178487" />
+    <state x="1122" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1623245330538">
+      <screen x="78" y="0" width="1842" height="1080" />
+    </state>
+    <state x="1122" y="240" width="672" height="678" key="search.everywhere.popup/-1858.0.1474.864/78.0.1842.1080@78.0.1842.1080" timestamp="1623245330538" />
   </component>
 </project>

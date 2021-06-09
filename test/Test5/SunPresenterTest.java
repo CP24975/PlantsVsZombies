@@ -1,4 +1,4 @@
-package test.Test5;
+package Test5;
 
 import static org.junit.Assert.*;
 import java.util.Random;

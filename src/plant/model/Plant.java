@@ -3,6 +3,7 @@ package plant.model;
 import java.awt.Image;
 import Lane.model.Lane;
 import plant.strategy.PlantShootingStrategy;
+import sun.producer.SunProducer;
 
 
 import java.awt.*;
@@ -43,7 +44,9 @@ public abstract class Plant {
     public void setPlantShootingStrategy(PlantShootingStrategy plantShootingStrategy) {
         this.plantShootingStrategy = plantShootingStrategy;
     }
-
+    public PlantShootingStrategy getPlantShootingStrategy() {
+        return this.plantShootingStrategy;
+    }
     public void stop() {
     }
 
@@ -78,4 +81,5 @@ public abstract class Plant {
     public void setY(int y) {
         this.y = y;
     }
+
 }

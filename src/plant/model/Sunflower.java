@@ -40,5 +40,8 @@ public class Sunflower extends Plant {
       // TODO Auto-generated method stub
       plantImage = new ImageIcon(this.getClass().getResource("../../images/plants/sunflower.gif")).getImage();
     }
+    public SunProducer getSunProducer() {
+        return this.sunProducer;
+    }
     
 }

@@ -22,7 +22,7 @@ public class FreezePea extends Pea {
 
     @Override
     public void advance() {
-        setXPosition(getXPosition() - 15);
+        setXPosition(getXPosition() + 15);
     }
 
 }

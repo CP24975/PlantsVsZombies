@@ -10,10 +10,11 @@ import java.awt.event.ActionEvent;
 public class ProduceSunBySunFlower {
     private SunProducer sunProducer;
     private Timer sunProducerTimer;
+    public static final int PRODUCE_DELAY = 15000;
 
     private void ProduceSunBySunFlower(int x, int y) {
         sunProducer = new SunFlowerSunProducer(x,y);
-        sunProducerTimer = new Timer(15000,(ActionEvent e)->{sunProducer.createSunView();});
+        sunProducerTimer = new Timer(PRODUCE_DELAY,(ActionEvent e)->{sunProducer.createSunView();});
         sunProducerTimer.start();
     }
 
