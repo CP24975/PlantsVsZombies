@@ -70,6 +70,10 @@ public class GamePanel extends JLayeredPane {
         return gamePanel;
     }
 
+    public Lane getLanes() {
+        return lanes;
+    }
+
     private void setSunProducerTimer() {
         sunProducer = new RandomSunProducer();
         sunProducerTimer = new Timer(SUN_PRODUCE_DELAY,(ActionEvent e)->{
