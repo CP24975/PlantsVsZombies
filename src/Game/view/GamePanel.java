@@ -286,4 +286,8 @@ public class GamePanel extends JLayeredPane {
         this.sunScore = sunScore;
         sunScoreboard.setText(String.valueOf(sunScore));
     }
+    
+    public Lane getLanes() {
+    	return lanes;
+    }
 }

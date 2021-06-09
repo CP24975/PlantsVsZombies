@@ -260,10 +260,29 @@ public class ZombieTest {
      * 
      */
 	@Test
-	public void TestZombiePlantAttack() {
+	public void TestZombieAdvance() {
 		testItem = Zombie.getZombie("zombie.model.NormalZombie", 0);
+		int X = testItem.getXPosition();
+		int Y = testItem.getYPosition();
+		Plant testPlant = new Peashooter(X, Y);
 		
-	
+		gamePanel.getColliders()[8].setPlant(testPlant);
+		
+		for(int i=0; i<1000; i++) {
+			testItem.advance();
+		}
+		assertTrue(0>testPlant.getHealth());
+		
+		
+		testItem.setXPosition(500);
+		testPlant = new Peashooter(X, Y);
+		gamePanel.getColliders()[8].setPlant(testPlant);
+		for(int i=0; i<1000; i++) {
+			testItem.advance();
+		}
+		assertEquals(200, testPlant.getHealth());
+		assertFalse(testItem.getAlive());
+		assertEquals(0, testItem.getXPosition());	
 	}
 	
     /**
@@ -273,10 +292,6 @@ public class ZombieTest {
      * 
      */
 	
-	@Test
-	public void TestZombieAdvanceEX() {
-		
-		
-	}
+
 	
 }
