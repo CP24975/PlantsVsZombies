@@ -3,7 +3,7 @@ import static org.junit.Assert.*;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-
+import java.awt.*;
 import Game.view.GamePanel;
 import zombie.model.*;
 import plant.model.*;
@@ -31,6 +31,9 @@ public class ZombieTest {
      */
 	@Test
 	public void TestZombieFactory() {
+		testItem = Zombie.getZombie("Null Expected", 0);
+		assertNull(testItem);
+		
 		testItem = Zombie.getZombie("zombie.model.NormalZombie", 0);
 		assertNotNull(testItem);
 		assertEquals(NormalZombie.class.getName(), testItem.getClass().getName());
@@ -50,6 +53,18 @@ public class ZombieTest {
 		assertNotNull(testItem);
 		assertEquals(ConeHeadZombie.class.getName(), testItem.getClass().getName());
 		assertEquals(4, testItem.getMyLane());
+		
+		testItem = Zombie.getZombie("zombie.model.NormalZombie", 5);
+		assertNull(testItem);
+		
+		testItem = Zombie.getZombie("zombie.model.NormalZombie", -1);
+		assertNull(testItem);
+
+		testItem = Zombie.getZombie("zombie.model.ConeHeadZombie", 5);
+		assertNull(testItem);
+		
+		testItem = Zombie.getZombie("zombie.model.ConeHeadZombie", -1);
+		assertNull(testItem);
 	}
 	
 
@@ -252,13 +267,23 @@ public class ZombieTest {
 		testItem.setYPosition(expectedValue);
 		assertEquals(expectedValue, testItem.getYPosition());
 	}
-	
+
     /**
-     * Purpose: test Zombie.advance() function
-     * Input: 
+     * Purpose: test Zombie.Slow() function
+     * Input: advance   (Xposition = 1000, SlowInt = 1000) (Xposition = 999, SlowInt = 999) (Xposition = 0, SlowInt = 0)
      * Expected:
+     * 		(Xposition = 1000, SlowInt = 1000) => Xposition = 999, SlowInt = 998
+     * 		(Xposition = 999, SlowInt = 999) => Xposition = 999, SlowINt = 998
+     *      (Xposition = 0, SlowInt = 0) => Xposition = 0, SlowINt = 0
      * 
      */
+	@Test
+	public void TestZombieGetImage() {
+		Image NormalZombieImage = NormalZombie.getImage();
+		assertNotNull(NormalZombieImage);
+	}
+
+	
 	@Test
 	public void TestZombieAdvance() {
 		testItem = Zombie.getZombie("zombie.model.NormalZombie", 0);
@@ -286,12 +311,50 @@ public class ZombieTest {
 	}
 	
     /**
-     * Purpose: test Zombie.advance() function
-     * Input: 
+     * Purpose: test Zombie.Slow() function
+     * Input: advance   (Xposition = 1000, SlowInt = 1000) (Xposition = 999, SlowInt = 999) (Xposition = 0, SlowInt = 0)
      * Expected:
+     * 		(Xposition = 1000, SlowInt = 1000) => Xposition = 999, SlowInt = 998
+     * 		(Xposition = 999, SlowInt = 999) => Xposition = 999, SlowINt = 998
+     *      (Xposition = 0, SlowInt = 0) => Xposition = 0, SlowINt = 0
      * 
      */
 	
+	@Test
+	public void TestZombieSlow() {
+		testItem = Zombie.getZombie("zombie.model.NormalZombie", 0);
+		testItem.slow();
+		
+		int expectedXposition = 999;
+		int expectedSlowInt = 999;
+		testItem.advance();
+		assertEquals(expectedXposition, testItem.getXPosition());
+		assertEquals(expectedSlowInt, testItem.getSlowInt());
+		
+		
+		expectedXposition = 999;
+		expectedSlowInt = 998;
+		testItem.advance();
+		assertEquals(expectedXposition, testItem.getXPosition());
+		assertEquals(expectedSlowInt, testItem.getSlowInt());
+		
+		testItem.setXPosition(0);
+		testItem.setSlowInt(1);
+		expectedXposition = 0;
+		expectedSlowInt = 0;
+		testItem.advance();
+		assertEquals(expectedSlowInt, testItem.getSlowInt());
+		assertEquals(expectedXposition, testItem.getXPosition());
+		
+		testItem.setXPosition(0);
+		testItem.setSlowInt(2);
+		expectedXposition = 0;
+		expectedSlowInt = 1;
+		testItem.advance();
+		assertEquals(expectedSlowInt, testItem.getSlowInt());
+		assertEquals(expectedXposition, testItem.getXPosition());
+	}
+
 
 	
 }
